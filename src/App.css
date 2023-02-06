@@ -1,0 +1,26 @@
+html {
+    scroll-behavior: smooth;
+}
+
+#header {
+    
+    z-index: 997;
+}
+
+#background {
+
+    background-image: url("./assets/images/bg.png");
+    background-size: auto;
+    background-repeat: repeat;
+    background-position: center center;
+}
+
+#download_resume {
+
+    background-color: #2d3748;
+}
+
+#download_resume:hover {
+    
+    background-color: #1a202c;
+}
