@@ -48,7 +48,7 @@ function Projects() {
                     </CardBody>
                 </Card>
                 </Link>
-                <Link href={"https://rashedservices.com/TicTacToe"} _hover={{ textDecoration: "none", transform: "scale(1.2)", zIndex: "1" }} target={"_blank"}>
+                <Link href={"https://front-end-react-ts.vercel.app/"} _hover={{ textDecoration: "none", transform: "scale(1.2)", zIndex: "1" }} target={"_blank"}>
                 <Card maxW='md'>
                     <CardBody>
                         <Image
@@ -56,7 +56,7 @@ function Projects() {
                         alt='Tic Tac Toe'
                         borderRadius='lg' />
                         <Stack mt='6' spacing='3'>
-                        <Heading size='md'>Tic Tac Toe</Heading>
+                        <Heading size='md'>Know your Stock</Heading>
                         </Stack>
                     </CardBody>
                 </Card>
