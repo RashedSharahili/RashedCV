@@ -1,7 +1,12 @@
-import { Box, chakra, Link, SimpleGrid } from '@chakra-ui/react'
+import { Box, chakra, Link, SimpleGrid, useColorModeValue } from '@chakra-ui/react'
 import React from 'react'
+import { BsGithub, BsLinkedin, BsTelephoneFill, BsTwitter } from 'react-icons/bs'
 
 function Contact() {
+
+    const bg = useColorModeValue("white", "gray.800");
+    const cl = useColorModeValue("gray.800", "white");
+    
   return (
     <Box id="contact" ml={"17%"} mr={"17%"}>
         <br></br>
@@ -15,22 +20,34 @@ function Contact() {
         <br></br>
         <br></br>
         <Box textAlign={"center"}>
-            <SimpleGrid columns={2} spacing={5}>
-                <Box bg={"white"} p={"10"} shadow={"dark-lg"}>
-                    <chakra.h1>Call</chakra.h1>
-                    <Link href={"tel:+966500939420"} target={"_blank"}><chakra.h1>+966500939420</chakra.h1></Link>
+            <SimpleGrid columns={{ base: 1, md: 2, lg: 4 }} spacing={5}>
+                <Box bg={bg} p={"10"} shadow={"dark-lg"}>
+                    <Box display={"flex"} justifyContent={"center"} alignItems={"center"}>
+                        <chakra.h1 fontSize={"larger"} fontWeight={"bold"}>Call</chakra.h1>
+                        <BsTelephoneFill fontSize={"larger"} />
+                    </Box>
+                    <Link href={"tel:+966500939420"} target={"_blank"}><chakra.h1 fontWeight={"bold"}>+966500939420</chakra.h1></Link>
                 </Box>
-                <Box bg={"white"} p={"10"} shadow={"dark-lg"}>
-                    <chakra.h1>GitHub</chakra.h1>
-                    <Link href={"https://github.com/RashedSharahili"} target={"_blank"}><chakra.h1>Rashed Sharahili</chakra.h1></Link>
+                <Box bg={bg} p={"10"} shadow={"dark-lg"}>
+                    <Box display={"flex"} justifyContent={"center"} alignItems={"center"}>
+                        <chakra.h1 fontSize={"larger"} fontWeight={"bold"}>GitHub</chakra.h1>
+                        <BsGithub fontSize={"larger"} />
+                    </Box>
+                    <Link href={"https://github.com/RashedSharahili"} target={"_blank"}><chakra.h1 fontWeight={"bold"}>Rashed Sharahili</chakra.h1></Link>
                 </Box>
-                <Box bg={"white"} p={"10"} shadow={"dark-lg"}>
-                    <chakra.h1>Twitter</chakra.h1>
-                    <Link href={"https://twitter.com/rashdtech"} target={"_blank"}><chakra.h1>@Rashdtech</chakra.h1></Link>
+                <Box bg={bg} p={"10"} shadow={"dark-lg"}>
+                    <Box display={"flex"} justifyContent={"center"} alignItems={"center"}>
+                        <chakra.h1 fontSize={"larger"} fontWeight={"bold"}>Twitter</chakra.h1>
+                        <BsTwitter fontSize={"larger"} />
+                    </Box>
+                    <Link href={"https://twitter.com/rashdtech"} target={"_blank"}><chakra.h1 fontWeight={"bold"}>@Rashdtech</chakra.h1></Link>
                 </Box>
-                <Box bg={"white"} p={"10"} shadow={"dark-lg"}>
-                    <chakra.h1>LinkedIn</chakra.h1>
-                    <Link href={"https://www.linkedin.com/in/rashed-sharahili"} target={"_blank"}><chakra.h1>Rashd Sharahili</chakra.h1></Link>
+                <Box bg={bg} p={"10"} shadow={"dark-lg"}>
+                    <Box display={"flex"} justifyContent={"center"} alignItems={"center"}>
+                        <chakra.h1 fontSize={"larger"} fontWeight={"bold"}>LinkedIn</chakra.h1>
+                        <BsLinkedin fontSize={"larger"} />
+                    </Box>
+                    <Link href={"https://www.linkedin.com/in/rashed-sharahili"} target={"_blank"}><chakra.h1 fontWeight={"bold"}>Rashd Sharahili</chakra.h1></Link>
                 </Box>
             </SimpleGrid>
         </Box>

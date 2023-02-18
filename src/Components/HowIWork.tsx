@@ -52,7 +52,6 @@ function HowIWork() {
             <br></br>
             <br></br>
             <Flex
-            _dark={{ bg: "#3e3e3e" }}
             w="auto"
             justifyContent="center"
             alignItems="center"

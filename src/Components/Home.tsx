@@ -28,7 +28,7 @@ function Home() {
             <br></br>
             <br></br>
             <Box bg={"#ae936f"} p={"10"} boxShadow={"dark-lg"} opacity={"0.9"}>
-                <Box textAlign={"center"} color={"gray.800"} fontSize={"32"} fontWeight={"bold"} ml={"22%"} mr={"22%"}>
+                <Box textAlign={"center"} color={"gray.800"} fontSize={{ base:"16", md: "16", lg: "32" }} fontWeight={"bold"} ml={"22%"} mr={"22%"}>
                     <chakra.h1>
                         " Believe in yourself. You are braver than you think, more talented than you know, and capable of more than you imagine. "
                     </chakra.h1>
