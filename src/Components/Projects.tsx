@@ -44,7 +44,7 @@ function Projects() {
                         alt='ETC'
                         borderRadius='lg' />
                         <Stack mt='6' spacing='3'>
-                        <Heading size='md'>ETC Portal</Heading>
+                        <Heading size='md'>Timer</Heading>
                         </Stack>
                     </CardBody>
                 </Card>
