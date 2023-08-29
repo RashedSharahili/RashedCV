@@ -61,7 +61,7 @@ function Projects() {
                     </CardBody>
                 </Card>
                 </Link>
-                <Link href={"https://rashedservices.com/todolist"} _hover={{ textDecoration: "none", transform: "scale(1.2)", zIndex: "1" }} target={"_blank"}>
+                <Link href={"https://rashedsharahili.github.io/todolist/"} _hover={{ textDecoration: "none", transform: "scale(1.2)", zIndex: "1" }} target={"_blank"}>
                 <Card maxW='md'>
                     <CardBody>
                         <Image
