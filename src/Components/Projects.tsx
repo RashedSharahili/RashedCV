@@ -4,6 +4,7 @@ import Proj1 from './../assets/images/projects/1.png'
 import Proj2 from './../assets/images/projects/proj2.png'
 import Proj3 from './../assets/images/projects/proj3.png'
 import Proj4 from './../assets/images/projects/proj4.png'
+import Proj5 from './../assets/images/projects/proj5.png'
 
 function Projects() {
   return (
@@ -35,11 +36,11 @@ function Projects() {
                         </CardBody>
                     </Card>
                 </Link>
-                <Link href={"https://rashedservices.com/academies"} _hover={{ textDecoration: "none", transform: "scale(1.2)", zIndex: "1" }} target={"_blank"}>
+                <Link href={"https://rashedsharahili.github.io/timer/"} _hover={{ textDecoration: "none", transform: "scale(1.2)", zIndex: "1" }} target={"_blank"}>
                 <Card maxW='md'>
                     <CardBody>
                         <Image
-                        src={Proj2}
+                        src={Proj5}
                         alt='ETC'
                         borderRadius='lg' />
                         <Stack mt='6' spacing='3'>
